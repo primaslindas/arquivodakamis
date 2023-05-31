@@ -1,13 +1,23 @@
-: root {
-    --cor-de-fundo: #eeebed;
+:root {  
+    --cor-de-fundo: #0959fa;
 }
-body{ 
-    background-color: var(--color-de-fundo);roxo
+body {
+    background-color: var(--cor-de-fundo);
+}
+h1{
+    background-color: white;
+}
+:root {
+    --cor-de-fundo: #0959fa
 
+}
 
-
-
-
+ body{
+     background-color: var(--cor-de-fundo);
+ }
+ @import url("style/header.css");
+ :
+         
 
 
 
