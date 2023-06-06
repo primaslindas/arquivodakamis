@@ -1,4 +1,5 @@
-:root {  
+@import url("style/header.css");
+:root{
     --cor-de-fundo: #0959fa;
 }
 body {
@@ -15,8 +16,12 @@ h1{
  body{
      background-color: var(--cor-de-fundo);
  }
- @import url("style/header.css");
- :
+ 
+:root { 
+    --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+}
+ 
          
 
 
