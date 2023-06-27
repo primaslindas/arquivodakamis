@@ -19,12 +19,19 @@
     display: none;
     position: absolute;
     top: 100%
+    width:60%
 }
 .container__botao:checked ~ .lista-menu {
     display: block;
 }
-.lista-menu__titulo,
+.lista-menu__titulo
+    color: var(--laranja);
 .lista-menu__item {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
+    text-transform: uppercase;
   padding: 1em
-  background-color: var (--branco);
+  background-color:var (--branco);
 }
