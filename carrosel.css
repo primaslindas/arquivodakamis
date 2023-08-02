@@ -7,3 +7,9 @@
     font-weight: 700;
     padding: 1em 0 0.5em 0;
 }
+const swiper = new Swiper('.swiper', {
+    // Default parameters
+    slidesPerView: 10,
+    spaceBetween: 3,
+           });
+           </script>
